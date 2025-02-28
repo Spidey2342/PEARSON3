@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f06902;
+}
+.nav ul{
+    display: flex;
+    gap: 60px;
+}
+.nav ul li{
+    position: relative;
+}
+.nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn{
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+    transition: .4s;
+}
+.btn:hover{
+    background: #333333;
+    color: white;
+}
+.first{
+    height: 20vh;
+    text-align: center;
+}
+.text{
+    margin-top: 80px;
+    font-size: 3.8em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.two{
+    height: 90vh;
+}
+.two h4{
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.pics img{
+    height: 220px;
+    width: 300px;
+    object-fit: cover;
+}
+footer{
+    height: 40vh;
+    background: #333333;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 1350px;
+    background: white;
+    top: 230px;
+}
+.link2 h5{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.link2 ul li{
+    margin-bottom: 10px;
+}
+.link2 ul li a{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+}
+.link2 ul li a::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    background: white;
+    top: 20px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+.link2 ul li a:hover::before{
+    transform: scale(1);
+}
+.link3 h5{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.link{
+    color: white;
+    padding: 0 30px;
+}
+.link3 h5{
+    margin-bottom: 20px;
+}
+.link3 ul{
+    display: flex;
+    gap: 20px;
+}
