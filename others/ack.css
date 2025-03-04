@@ -22,6 +22,10 @@ nav ul li a{
     color: white;
     font-weight: 600;
     text-transform: uppercase;
+a .logo{
+font-size:20px;
+font-weight:700;
+color:white;
 }
 .btn{
     width: 140px;
