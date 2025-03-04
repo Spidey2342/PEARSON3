@@ -25,6 +25,7 @@ header{
 .logo{
 font-size:25px;
     font-weight:700;
+    color:white;
 }
 .text{
     height: 80vh;
