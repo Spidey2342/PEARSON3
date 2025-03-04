@@ -23,6 +23,11 @@ header{
 .nav ul li{
     position: relative;
 }
+a .logo{
+font-size:20px;
+font-weight:700;
+color:white;
+}
 .nav ul li a{
     color: white;
     text-transform: uppercase;
