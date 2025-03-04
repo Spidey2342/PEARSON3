@@ -18,7 +18,7 @@ header{
     background: #f06902;
     width: 100%;
 }
-.logo{
+.logo a{
 font-size:20px;
     font-weight:700;
     color:white;
