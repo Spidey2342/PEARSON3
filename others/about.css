@@ -13,6 +13,11 @@ header{
     align-items: center;
     background: #333333;
 }
+.logo{
+font-size:20px;
+    font-weight:700;
+    color:white;
+}
 nav ul{
     display: flex;
     gap: 40px;
